@@ -4,7 +4,8 @@ $:.unshift(File.dirname(__FILE__)) unless
 require 'forwardable'
 require 'singleton'
 require 'rubygems'
-require 'activesupport'
+require File.join(File.dirname(__FILE__), 'hash')
+#require 'activesupport'
 require 'fail_fast'
 
 module AlterEgo
