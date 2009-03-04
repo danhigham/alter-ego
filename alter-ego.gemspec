@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{alter-ego}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Avdi Grimm"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{AlterEgo is a Ruby implementation of the State pattern as described by the Gang of Four.  It differs from other Ruby state machine libraries in that it focuses on providing polymorphic behavior based on object state.  In effect, it makes it easy to give an object different personalities depending on the state it is in.}
   s.email = ["avdi@avdi.org"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "State_Design_Pattern_UML_Class_Diagram.png", "Rakefile", "TODO", "lib/alter_ego.rb", "lib/hash.rb", "lib/hash/keys.rb", "script/console", "script/destroy", "script/generate", "spec/spec.opts", "spec/spec_helper.rb", "spec/alter_ego_spec.rb", "tasks/rspec.rake"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "State_Design_Pattern_UML_Class_Diagram.png", "Rakefile", "TODO", "lib/alter_ego.rb", "lib/hash.rb", "lib/hash/keys.rb", "lib/hookr.rb", "script/console", "script/destroy", "script/generate", "spec/spec.opts", "spec/spec_helper.rb", "spec/alter_ego_spec.rb", "tasks/rspec.rake"]
   s.has_rdoc = true
   s.homepage = %q{http://alter-ego.rubyforge.org}
   s.rdoc_options = ["--main", "README.rdoc"]

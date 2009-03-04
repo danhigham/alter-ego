@@ -10,7 +10,7 @@ require 'fail_fast'
 require 'hookr'
 
 module AlterEgo
-  VERSION = '1.0.0'
+  VERSION = '1.0.2'
 
   include FailFast::Assertions
 
