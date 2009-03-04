@@ -6,6 +6,8 @@ State_Design_Pattern_UML_Class_Diagram.png
 Rakefile
 TODO
 lib/alter_ego.rb
+lib/hash.rb
+lib/hash/keys.rb
 script/console
 script/destroy
 script/generate
