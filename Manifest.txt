@@ -8,6 +8,7 @@ TODO
 lib/alter_ego.rb
 lib/hash.rb
 lib/hash/keys.rb
+lib/hookr.rb
 script/console
 script/destroy
 script/generate
