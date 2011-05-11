@@ -185,9 +185,12 @@ module AlterEgo
       end
 
       execute_hook(:on_exit, context)
-      new_state_obj.execute_hook(:on_enter, context)
       context.state = new_state
       assert(new_state == context.state)
+
+      # execute on_enter hook last minute..
+      new_state_obj.execute_hook(:on_enter, context)
+
       true
     end
 
